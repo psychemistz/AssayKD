@@ -1,0 +1,27 @@
+# Core deep learning
+torch>=1.12.0
+torch-geometric>=2.1.0
+
+# Molecular processing
+rdkit>=2022.3.0
+
+# Machine learning
+scikit-learn>=1.1.0
+
+# Data processing
+pandas>=1.4.0
+numpy>=1.21.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Progress bars
+tqdm>=4.64.0
+
+# Optional: Enhanced baselines
+# xgboost>=1.6.0
+# lightgbm>=3.3.0
+
+# Optional: Hyperparameter optimization
+# optuna>=3.0.0
