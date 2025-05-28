@@ -175,20 +175,6 @@ lr=1e-3         # Learning rate
 batch_size=32   # Batch size
 ```
 
-## 🎓 Educational Value
-
-This codebase demonstrates:
-- **Clean implementation** of knowledge distillation
-- **Fair comparison** between basic and advanced approaches
-- **Real-world application** to drug discovery
-- **Best practices** for molecular machine learning
-
-Perfect for:
-- Understanding knowledge distillation mechanisms
-- Comparing different KD approaches
-- Learning molecular property prediction
-- Building drug discovery pipelines
-
 ## 📋 Requirements
 
 - Python 3.8+
@@ -209,7 +195,7 @@ This is a clean, educational implementation. Contributions welcome for:
 
 ## 📄 License
 
-MIT License - see LICENSE file for details.
+MIT License.
 
 ---
 
