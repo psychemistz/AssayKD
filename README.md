@@ -25,7 +25,7 @@ Predicts whether molecules are:
 ```bash
 # Clone and setup
 git clone <repository>
-cd molecular-prediction
+cd AssayKD
 
 # Install dependencies
 pip install torch torch-geometric rdkit scikit-learn pandas numpy matplotlib
