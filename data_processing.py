@@ -182,7 +182,10 @@ def create_activity_labels(df):
     if 'mkl1_10' in df.columns:
         df['mkl1_active'] = (df['mkl1_10'] < toxicity_threshold).astype(int)
         active_count = df['mkl1_active'].sum()
-        print(f"  • mkl1_active: {active_count}/{len(df)*100:.1f}%)")
+        print(
+            f"  • mkl1_active: {active_count}/{len(df)} "
+            f"({active_count/len(df)*100:.1f}%)"
+        )
     
     return df
 
